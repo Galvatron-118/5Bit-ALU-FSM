@@ -1,0 +1,95 @@
+=== top ===
+
+   Number of wires:                  8
+   Number of wire bits:             20
+   Number of public wires:           8
+   Number of public wire bits:      20
+   Number of ports:                  5
+   Number of port bits:              9
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     ALU                             1
+     FSM                             1
+
+=== FSM ===
+
+   Number of wires:                 43
+   Number of wire bits:            103
+   Number of public wires:           8
+   Number of public wire bits:      24
+   Number of ports:                  6
+   Number of port bits:             14
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 26
+     $adff                           1
+     $eq                            15
+     $logic_not                      3
+     $mux                            1
+     $not                            2
+     $pmux                           4
+
+=== ALU_XOR ===
+
+   Number of wires:                  4
+   Number of wire bits:             20
+   Number of public wires:           3
+   Number of public wire bits:      15
+   Number of ports:                  3
+   Number of port bits:             15
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     $xor                            1
+
+=== ALU_ROR ===
+
+   Number of wires:                 10
+   Number of wire bits:             34
+   Number of public wires:           3
+   Number of public wire bits:      15
+   Number of ports:                  3
+   Number of port bits:             15
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     $eq                             4
+     $pmux                           1
+
+=== ALU_FLAG ===
+
+   Number of wires:                  4
+   Number of wire bits:              8
+   Number of public wires:           2
+   Number of public wire bits:       6
+   Number of ports:                  2
+   Number of port bits:              6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     $logic_not                      1
+     $mux                            1
+
+=== ALU ===
+
+   Number of wires:                 16
+   Number of wire bits:             64
+   Number of public wires:           8
+   Number of public wire bits:      32
+   Number of ports:                  5
+   Number of port bits:             17
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     $mux                            2
+     ALU_FLAG                        1
+     ALU_ROR                         1
+     ALU_XOR                         1
+

@@ -1,0 +1,14 @@
+[INFO] Extracting DIE_AREA and CORE_AREA from the floorplan
+[INFO] Floorplanned on a die area of 0.0 0.0 50.0 50.0 (µm).
+[INFO] Floorplanned on a core area of 5.52 10.88 44.16 38.08 (µm).
+Writing metric design__die__bbox: 0.0 0.0 50.0 50.0
+Writing metric design__core__bbox: 5.52 10.88 44.16 38.08
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Buffer                                    3      15.01
+  Inverter                                  1      16.27
+  Sequential cell                           3      78.83
+  Multi-Input combinational cell           12     111.36
+  Total                                    19     221.46
